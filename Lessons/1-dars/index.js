@@ -4,4 +4,5 @@
 
 
 // console.log(yosh + " yoshdasiz");
+console.log('Hi');
 
