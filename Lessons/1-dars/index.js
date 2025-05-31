@@ -1,8 +1,8 @@
-// let age = prompt("Iltimos yilingizni kiriting");
-// let year = 2025;
-// let yosh = year - age;
+let age = prompt("Iltimos yilingizni kiriting");
+let year = 2025;
+let yosh = year - age;
 
 
-// console.log(yosh + " yoshdasiz");
-console.log('Hi');
+console.log(yosh + " yoshdasiz");
+
 
