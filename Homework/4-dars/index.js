@@ -1,71 +1,49 @@
-// let son = +prompt ("Butun son kiriting:");
-// if (son > 0) son++;
-// alert("Natija: " + son);
+// let result = (a + b < 4) ? 'Below' : 'Over';
 
 
-// let son = +prompt("Butun son kiriting:");
-// if (son > 0) {
-//     son++;
+// let message = (login == 'Employee') ? 'Hello' :
+//     (login == 'Director') ? 'Greetings' :
+//         (login == '') ? 'No login' : '';
+
+
+
+// switch (browser) {
+//     case 'Edge':
+//         alert("You've got the Edge!");
+//         break;
+//     case 'Chrome':
+//     case 'Firefox':
+//     case 'Safari':
+//     case 'Opera':
+//         alert('Okay we support these browsers too');
+//         break;
+//     default:
+//         alert('We hope that this page looks ok!');
+// }
+
+
+// if (browser === 'Edge') {
+//     alert("You've got the Edge!");
+// } else if (browser === 'Chrome' || browser === 'Firefox' || browser === 'Safari' || browser === 'Opera') {
+//     alert('Okay we support these browsers too');
 // } else {
-//     son -= 2;
+//     alert('We hope that this page looks ok!');
 // }
-// alert("Natija: " + son);
+  
 
-// let son = +prompt("Butun son kiriting:");
-// if (son > 0) {
-//     son++;
-// } else if (son < 0) {
-//     son -= 2;
-// } else {
-//     son = 10;
+
+
+// let a = +prompt('a?', '');
+
+// switch (a) {
+//   case 0:
+//     alert(0);
+//     break;
+//   case 1:
+//     alert(1);
+//     break;
+//   case 2:
+//   case 3:
+//     alert('2,3');
+//     break;
 // }
-// alert("Natija: " + son);
-
-
-// let a = +prompt("1-son:");
-// let b = +prompt("2-son:");
-// let c = +prompt("3-son:");
-// let musbat = 0;
-// if (a > 0) musbat++;
-// if (b > 0) musbat++;
-// if (c > 0) musbat++;
-// alert("Musbat sonlar soni: " + musbat);
-
-
-// let a = +prompt("1-son:");
-// let b = +prompt("2-son:");
-// let c = +prompt("3-son:");
-// let musbat = 0, manfiy = 0;
-// if (a > 0) musbat++; else if (a < 0) manfiy++;
-// if (b > 0) musbat++; else if (b < 0) manfiy++;
-// if (c > 0) musbat++; else if (c < 0) manfiy++;
-// alert(`Musbat: ${musbat}, Manfiy: ${manfiy}`);
-
-
-// let a = +prompt("1-son:");
-// let b = +prompt("2-son:");
-// alert("Katta son: " + (a > b ? a : b));
-
-
-// let a = +prompt("1-son:");
-// let b = +prompt("2-son:");
-// alert("Kichik son tartib raqami: " + (a < b ? "1" : "2"));
-
-
-// let a = +prompt("1-son:");
-// let b = +prompt("2-son:");
-// if (a > b) {
-//     alert(a + ", " + b);
-// } else {
-//     alert(b + ", " + a);
-// }
-
-
-// let A = +prompt("A son:");
-// let B = +prompt("B son:");
-// if (A > B) {
-//     let temp = A;
-//     A = B;
-//     B = temp;
-// }
-// alert(`A = ${A}, B = ${B}`);

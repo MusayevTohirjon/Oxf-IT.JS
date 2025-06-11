@@ -1,69 +1,51 @@
-let number = 2012
-console.log(number)
-console.log(typeof number);
+let a = 20937
+console.log(a + "8337");
+let b = 123
+console.log("283" - b);
 
-// =============================
+console.log(10 + 10);
+console.log(63 + 35);
 
-let bigInt = BigInt(2 ** 53) + 1n;
-console.log(bigInt);
-console.log(typeof bigInt);
+console.log(10 - 10);
+console.log(3838 - 333);
 
-// =============================
+console.log(10 * 10);
+console.log(10 * 38);
 
-let name = `Eshmat`
-console.log(name);
-console.log(typeof name);
+console.log(10 / 10);
+console.log(10 / 63);
 
-// =============================
+console.log(10 % 4);
+console.log(5 % 2);
 
-let boolean = true;
-console.log(boolean);
-console.log(typeof boolean);
+console.log(10(35 + 47) - 10);
+console.log((1838 * 18) = 83 - 10);
 
-// ==============================
+let c = 5
+c = null
+console.log(10 = 10);
 
-let id = 10
-id = null
-console.log(id);
-console.log(typeof id);
+console.log(++10);
+console.log(10++);
 
-// ===============================
+console.log(10--);
+console.log(--10);
 
-let name2
-console.log(name2);
-console.log(typeof name2);
-
-// ===============================
-
-let id1 = Symbol()
-console.log(Symbol);
-console.log(typeof Symbol);
-
-// ===============================
-
-// nonPrimitive:Objects:1.object,2.array,3.function
-
-let user = {
-    id: 29989,
-    name: Toshmat,
-    age: 35
-}
-console.log(user["age"]);
-console.log(typeof user);
-
-// ==============================
-
-let arr = [1, "Eshmat", true]
-console.log(arr[2]);
-
-// ==============================
+console.log(10 ** 10);
+console.log(10 ** 53);
 
 
+let d = 536
+let h = "733"
 
+d == h
+d === h
 
+console.log(47 < 83);
+console.log(3773 > 3839);
 
-
-
+console.log(253 <= 832);
+console.log(374 >= 376);
 
 
 
