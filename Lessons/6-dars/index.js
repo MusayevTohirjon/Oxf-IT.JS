@@ -16,6 +16,6 @@ do{
     if ( a % 5 === 0 && a % 3 === 0) 
         console.log(a);
         a++
-}while(a<101)
+}while(a < 101)
 
 
