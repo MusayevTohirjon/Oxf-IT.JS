@@ -20,13 +20,13 @@
 
 
 
-let n = +prompt("n ni kiriting:", "");
+let n = +prompt("n ni kiriting:", );
 
-nextPrime:
+
 for (let i = 2; i <= n; i++) {
 
     for (let j = 2; j < i; j++) {
-        if (i % j == 0) continue nextPrime; // tub emas
+        if (i % j == 0) continue ; // tub emas
     }
 
     alert(i); // tub son
