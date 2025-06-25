@@ -341,5 +341,5 @@
 
 // // Ildiz olish funksiyalari
 // console.log("Math.sqrt(4):", Math.sqrt(4));   // 2 — kvadrat ildizi
-// console.log("Math.cbrt(8):", Math.cbrt(8));   // 2 — kub ildizi
+// console.log("Math.cbrt(8):", Math.cbrt(8));   // 2 — kub ildizi.
   
